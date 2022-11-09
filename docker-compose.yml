@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  pyproject:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/usr/local/app
+    tty: true
