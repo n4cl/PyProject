@@ -1,0 +1,12 @@
+{
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "app",
+    "workspaceFolder": "/usr/local/app",
+    "extensions": ["ms-python.python"],
+    "settings": {
+        "python.formatting.provider": "black",
+        "python.languageServer": "Pylance",
+        "python.linting.flake8Args": ["--max-line-length", "119"],
+        "python.linting.flake8Enabled": true
+    }
+}
