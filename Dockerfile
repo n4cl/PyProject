@@ -1,1 +1,2 @@
-FROM python:3.11.0-bullseye
+ARG PYTHON_VERSION
+FROM python:${PYTHON_VERSION}-bullseye
